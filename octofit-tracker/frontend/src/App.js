@@ -12,7 +12,10 @@ function App() {
     <Router>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
-          <Link className="navbar-brand" to="/">Octofit Tracker</Link>
+          <Link className="navbar-brand" to="/">
+            <img src="/octofitapp-small.png" alt="Octofit Logo" className="me-2" style={{height: '40px'}} />
+            Octofit Tracker
+          </Link>
           <div className="navbar-nav">
             <Link className="nav-link" to="/activities">Activities</Link>
             <Link className="nav-link" to="/leaderboard">Leaderboard</Link>
